@@ -90,6 +90,12 @@ const App = ({ signOut }) => {
             variation="quiet"
             required
           />
+          <View
+            name="image"
+            as="input"
+            type="file"
+            style={{ alignSelf: "end" }}
+          />
           <Button type="submit" variation="primary">
             Create Note
           </Button>
@@ -120,12 +126,6 @@ const App = ({ signOut }) => {
           </Button>
         </Flex>
       ))}
-      <View
-        name="image"
-        as="input"
-        type="file"
-        style={{ alignSelf: "end" }}
-      />
       </View>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
