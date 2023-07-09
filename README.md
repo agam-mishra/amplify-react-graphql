@@ -1,4 +1,4 @@
-# Simple Notes App with AWS Amplify
+# Simple Notes App with AWS Amplify📝
 
 Welcome to the Simple Notes App project! This project aims to help you build a simple notes application using AWS Amplify. The app will have authentication, hosting, database, storage, and image upload capabilities, allowing users to create, view, and manage their notes along with attached images.
 
@@ -15,7 +15,7 @@ Welcome to the Simple Notes App project! This project aims to help you build a s
 Before you start, ensure you have the following:
 
 - Basic knowledge of JavaScript and React.
-- An AWS account with the necessary permissions to create resources.
+- An AWS account with administrator-level access.
 - Node.js and npm installed on your machine.
 
 ## Installation and Setup
@@ -25,8 +25,8 @@ To set up the project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/agam-mishra/notes-app.git
+   cd notes-app
    ```
 
 2. Install the project dependencies:
