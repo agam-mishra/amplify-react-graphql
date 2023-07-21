@@ -2,7 +2,7 @@
   "providers": [
     "awscloudformation"
   ],
-  "projectName": "amplifyreactgraphql",
+  "projectName": "notesapp",
   "version": "3.1",
   "frontend": "javascript",
   "javascript": {
